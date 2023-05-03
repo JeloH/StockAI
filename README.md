@@ -5,7 +5,7 @@ Bsicly, the rprogram run in the Kaggle platform, the public link is available he
 https://www.kaggle.com/code/reko21/notebook503e15eeba
 
 # Requirements
-The libraries used in this note put are:
+The packages used in this notebook :  
 
 * os
 * numpy
