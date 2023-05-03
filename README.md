@@ -1,23 +1,24 @@
 # **Motivation**
-This notebook is part of the requierments for my data scientist Udacity degree. In this project I tried to select a data-set that I had no prior knowledge about to be unbiased and challenging.
+This notebook shows some steps to implenet a ML model to work on a huge stocks data. Regarding the size of dataset, I was trying to find a suitable model.I used XGBRegressor because it is more efficient than other machine-learning algorithms to handle large datasets easily. 
 
-# **Usage example# **
-This notebook shows some steps in analysing huge stocks data obtain from Kaggle. It is always challanging to extract information from many available datapoins, so I tried to adress some major questions in this regards.
 
 # **Requirements# **
 The libraries used in this note put are:
 
-* os,
-* seaborn,
-* pandas,
-* numpy,
-* matplotlib,
-* datetime,
-* pandas_datareader
-* fix_yahoo_finance
+* os
+* numpy
+* pandas
+* joblib
+* sklearn
+* xgboost
+* flask
+* threading
+* pyngrok
+
 
 # **Disclaimer:**
-This analysis should NOT be taken as financial advice . I have no knowledge of stock trading and good/poor/best terms used to classify companies are based on intuition, which probably is not standard. Needles to say that market complexities cannot be captured by one dimensional price analysis.
+Example of 
+https://7d4d-35-196-142-252.ngrok-free.app/predict?vol_moving_avg=12345&adj_close_rolling_med=25
 
-# **File structure**
-There is a data folder used in this study tyhat contains Stock and ETFs folder and a oil_wti.csv file. Only Stock Folder and oil_wti.csv has been used in this project.
+![image](https://user-images.githubusercontent.com/11020050/235978329-5a03a8a4-8c59-41aa-a106-c5a073881d5c.png)
+
