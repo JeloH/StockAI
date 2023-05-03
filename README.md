@@ -1,7 +1,7 @@
 # Motivation
 This notebook shows some steps to implenet a ML model to work on a huge stocks data. Regarding the size of dataset, I was trying to find a suitable model.I used XGBRegressor because it is more efficient than other machine-learning algorithms to handle large datasets easily. 
 
-Bsicly, the rprogram run in the Kaggle platform, the public link is available here:
+Basically, the program implemented in the Kaggle platform, the public link is available here:
 https://www.kaggle.com/code/reko21/notebook503e15eeba
 
 # Requirements
