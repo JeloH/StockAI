@@ -1,8 +1,8 @@
-# **Motivation**
+# Motivation
 This notebook shows some steps to implenet a ML model to work on a huge stocks data. Regarding the size of dataset, I was trying to find a suitable model.I used XGBRegressor because it is more efficient than other machine-learning algorithms to handle large datasets easily. 
 
 
-# **Requirements# **
+# Requirements
 The libraries used in this note put are:
 
 * os
@@ -16,7 +16,7 @@ The libraries used in this note put are:
 * pyngrok
 
 
-# **Disclaimer:**
+# Model Serving:
 Example of 
 https://7d4d-35-196-142-252.ngrok-free.app/predict?vol_moving_avg=12345&adj_close_rolling_med=25
 
