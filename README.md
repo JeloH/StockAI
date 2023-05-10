@@ -22,7 +22,9 @@ The packages used in this notebook :
 
 By using heroku server:
 https://aistock.herokuapp.com/predict?vol_moving_avg=12345&adj_close_rolling_med=25
+![image](https://github.com/JeloH/StockAI/assets/11020050/237aa71b-8da4-472d-9ddb-c5499e570151)
 
+![image](https://github.com/JeloH/StockAI/assets/11020050/2c14b2f6-757d-45ac-8a7b-7d26edebcb1d)
 
 
 
