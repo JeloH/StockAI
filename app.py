@@ -1,16 +1,16 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu May 27 09:54:17 2021
+import numpy as np
+from flask import Flask, request, jsonify
+import pickle
 
-@author: shubh
-"""
-
-from flask import Flask
 app = Flask(__name__)
-
-@app.route('/')
-def hello():
-    return ("Hello")
-
+model = pickle.load(open('model.pkl','rb'))
+@app.route("/predict")
+def predict():
+    a1 = float(request.args.get('vol_moving_avg'))
+    a2 = float(request.args.get('adj_close_rolling_med'))
+    y_pred = model.predict(np.array([[a2, a1]]))
+    test1=str(y_pred)
+    print(y_pred)
+    return test1
 if __name__ == '__main__':
-    app.run()
+    app.run(port=5000, debug=True)
