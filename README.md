@@ -25,7 +25,8 @@ By using heroku server:
 
 ![image](https://github.com/JeloH/StockAI/assets/11020050/237aa71b-8da4-472d-9ddb-c5499e570151)
 
-![image](https://github.com/JeloH/StockAI/assets/11020050/2c14b2f6-757d-45ac-8a7b-7d26edebcb1d)
+![image](https://github.com/JeloH/StockAI/assets/11020050/913ef300-4a80-4070-813c-9d3e6993ac29)
+
 
 
 
